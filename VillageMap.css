@@ -1,4 +1,8 @@
-
+.popUpHeading {
+    color: darkgreen;
+    font-family: helvetica;
+    font-size: 200%;
+}
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
