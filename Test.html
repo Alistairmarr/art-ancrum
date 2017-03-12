@@ -1,0 +1,66 @@
+<html> 
+<head>
+<link rel = "stylesheet" type = "text/css" href = "VillageMap.css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.js"></script> 
+</head>
+<body>
+
+
+<img src="VillageMap.jpg" width="998" height="561" alt="Planets" usemap="#VillageMap">
+
+<map name="VillageMap">
+  <area shape="circle" coords="450,85,15," alt="Sun" href ="javascript:daisyCottage()"  id="one" >
+  <area shape="circle" coords="200,58,3" alt="Mercury" href="" data-reveal-id="two">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="" data-reveal-id="three">
+</map>
+
+<!-- The Modal -->
+<div id="daisyCottage" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Daisy Cottage - Venue 2</h2>
+    </div>
+    <div class="modal-body">
+      <h2>Cuero Leather</h2>
+      <p>Caroline Marr</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Open Through Out <b>Art@Ancrum</b></h3>
+    </div>
+  </div>
+
+</div>
+
+<script type="text/javascript">
+	// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("one");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+
+function daisyCottage() {
+    modal.style.display = "block";              // The function returns the product of p1 and p2
+}
+
+// Get the modal
+var modal = document.getElementById('daisyCottage');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+    }
+}
+</script>
+</body> 
+</html>
