@@ -8,7 +8,7 @@
 
 <img src="VillageMap.jpg" width="998" height="561" alt="Planets" usemap="#VillageMap">
 
-<map name="image-map">
+<map name="VillageMap">
     <area target="" alt="Cheviot View" title="Cheviot View" href="javascript:cheviotView()" coords="395,92,18" shape="circle">
     <area target="" alt="Daisy Cottage" title="Daisy Cottage" href="javascript:daisyCottage()" coords="452,90,16" shape="circle">
     <area target="" alt="Southernknowe" title="Southernknowe" href="javascript:southerknowe()" coords="547,69,13" shape="circle">
@@ -54,7 +54,7 @@
     </div>
   </div>
 </div>
-<div id="southerknowe" class="modal">
+<div id="southernknowe" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header">
@@ -174,7 +174,7 @@
     </div>
   </div>
 </div>
-<div id="crosskeysPub" class="modal">
+<div id="crossKeys" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header">
@@ -189,7 +189,7 @@
     </div>
   </div>
 </div>
-<div id="hardonValeCottage" class="modal">
+<div id="hardenValeCottage" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header">
@@ -207,16 +207,68 @@
 
 
 <script type="text/javascript">
-
-function daisyCottage() {
-    modal.style.display = "block";              // The function returns the product of p1 and p2
-}
+function cheviotView() {cheviotViewmodal.style.display = "block";}
+function daisyCottage() {daisyCottagemodal.style.display = "block";}
+function southerknowe() {southerknowemodal.style.display = "block";}
+function causewayEnd() {causewayEndmodal.style.display = "block";}
+function alnCottage() {alnCottagemodal.style.display = "block";}
+function furlongs() {furlongsmodal.style.display = "block";}
+function church() {churchmodal.style.display = "block";}
+function alewood() {alewoodmodal.style.display = "block";}
+function villageHall() {villageHallmodal.style.display = "block";}
+function foxyCottage() {foxyCottagemodal.style.display = "block";}
+function crossKeys() {crossKeysmodal.style.display = "block";}
+function hardenValeCottage() {hardenValeCottagemodal.style.display = "block";}
 // Get the modal
-var modal = document.getElementById('daisyCottage');
+var cheviotViewmodal = document.getElementById('cheviotView');
+var daisyCottagemodal = document.getElementById('daisyCottage');
+var southerknowemodal = document.getElementById('southerknowe');
+var causewayEndmodal = document.getElementById('causewayEnd');
+var alnCottagemodal = document.getElementById('alnCottage');
+var furlongsmodal = document.getElementById('furlongs');
+var churchmodal = document.getElementById('church');
+var alewoodmodal = document.getElementById('alewood');
+var villageHallmodal = document.getElementById('villageHall');
+var foxyCottagemodal = document.getElementById('foxyCottage');
+var crossKeysmodal = document.getElementById('crossKeys');
+var hardenValeCottagemodal = document.getElementById('hardenValeCottage');
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (event.target == cheviotViewmodal) {
+        cheviotViewmodal.style.display = "none";
+    }
+    if (event.target == daisyCottagemodal) {
+        daisyCottagemodal.style.display = "none";
+    }
+    if (event.target == southerknowemodal) {
+        southerknowemodal.style.display = "none";
+    }
+    if (event.target == causewayEndmodal) {
+        causewayEndmodal.style.display = "none";
+    }
+    if (event.target == alnCottagemodal) {
+        alnCottagemodal.style.display = "none";
+    }
+    if (event.target == furlongsmodal) {
+        furlongsmodal.style.display = "none";
+    }
+    if (event.target == churchmodal) {
+        churchmodal.style.display = "none";
+    }
+    if (event.target == alewoodmodal) {
+        alewoodmodal.style.display = "none";
+    }
+    if (event.target == villageHallmodal) {
+        villageHallmodal.style.display = "none";
+    }
+    if (event.target == foxyCottagemodal) {
+        foxyCottagemodal.style.display = "none";
+    }
+    if (event.target == crossKeysmodal) {
+        crossKeysmodal.style.display = "none";
+    }
+    if (event.target == hardenValeCottagemodal) {
+        hardenValeCottagemodal.style.display = "none";
     }
 }
 </script>
