@@ -9,7 +9,7 @@
 <img src="VillageMap.jpg" width="998" height="561" alt="Planets" usemap="#VillageMap">
  
 <map name="VillageMap">
-    <area target="" alt="Cheviot View" title="Cheviot View" href="javascript:cheviotView()" coords="395,92,18" shape="circle">
+    <area target="" alt="Cheviot View" title="Cheviot View" href="javascript:popup(cheviotView)" coords="395,92,18" shape="circle">
     <area target="" alt="Daisy Cottage" title="Daisy Cottage" href="javascript:daisyCottage()" coords="452,90,16" shape="circle">
     <area target="" alt="Southernknowe" title="Southernknowe" href="javascript:southerknowe()" coords="547,69,13" shape="circle">
     <area target="" alt="Causeway End" title="Causeway End" href="javascript:causewayEnd()" coords="564,78,12" shape="circle">
@@ -237,9 +237,9 @@
  
  
 <script type="text/javascript">
-function cheviotView() {document.getElementById('cheviotView').style.display = "block";}
-function daisyCottage() {daisyCottagemodal.style.display = "block";}
-function southerknowe() {southerknowemodal.style.display = "block";}
+function popup(location) {document.getElementById(location).style.display = "block";}
+function daisyCottage() {document.getElementById('daisyCottage').style.display = "block";}
+function southerknowe() {document.getElementById('southerknowe').style.display = "block";}
 function causewayEnd() {causewayEndmodal.style.display = "block";}
 function alnCottage() {alnCottagemodal.style.display = "block";}
 function furlongs() {furlongsmodal.style.display = "block";}
@@ -251,8 +251,8 @@ function crossKeys() {crossKeysmodal.style.display = "block";}
 function hardenValeCottage() {hardenValeCottagemodal.style.display = "block";}
 // Get the modal
 var cheviotViewmodal = 
-var daisyCottagemodal = document.getElementById('daisyCottage');
-var southerknowemodal = document.getElementById('southerknowe');
+var daisyCottagemodal = ;
+var southerknowemodal = ;
 var causewayEndmodal = document.getElementById('causewayEnd');
 var alnCottagemodal = document.getElementById('alnCottage');
 var furlongsmodal = document.getElementById('furlongs');
